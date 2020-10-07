@@ -1,0 +1,329 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+    font-family: 'Rakkas', serif;
+    background-image: url("images/questionmarks.jpg");
+    background-size: cover;
+}
+
+/*style for wrapper*/
+#wrapper {
+            position: absolute;
+            left: 30%;
+            top: 20%;
+            width: 500px;
+            height: 500px;
+}
+
+/*style for header 1 */
+h1 {
+    font-size: 48px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+/*style for header 3 in questions */
+h3 {
+    color: white;
+    background-color: black;
+    margin-top: 10px;
+    padding: 5px 15px;
+    width: 80%;
+    font-size: 18px;
+}
+
+/*style for paragraph on pages*/
+p {
+    font-size: 24px;
+    padding: 10px 10px;
+    background-color: whitesmoke;
+    color: black;
+}
+/*style for the paragraph name & score on Scores.html page*/
+#p3 {
+    font-size: 18px;
+    padding: 10px 10px;
+    background-color: whitesmoke;
+    color: black;
+}
+
+/*general style for all buttons*/
+button {
+    font-family: 'Rakkas', serif;
+    padding: 10px 32px;
+    outline:none;
+    font-size: 15px;
+    border-radius: 100px;
+    box-shadow: 0 4px #99999954;
+}
+
+/*style for Start Quiz button*/
+#startTimer {
+    background-color: black;
+    margin-left: 22%;
+    color: white;
+    border-color: black;
+}
+
+/*style for when start quiz button is hovered over*/
+#startTimer:hover {
+    border-color:black;
+    cursor: pointer;
+    border-radius: 100px;
+    color:black;
+    background-color: white;
+}
+/*style for when Start Quiz button is active*/
+#startTimer:active {
+  background-color: black;
+  border-radius:100px;
+  box-shadow: 0 4px #666;
+  transform: translateY(4px);
+}
+/*style for View HighScores button*/
+#viewScores {
+    background-color: white;
+    margin-left: 5%;    
+    padding: 10px 10px;
+    color: black;
+    border-color: black;
+}
+
+/*style for when Highscores button is hovered over*/
+#viewScores:hover {
+    border-color:black;
+    cursor: pointer;
+    border-radius: 100px;
+    color:white;
+    background-color: black;
+}
+/*style for when View Highscores button is active button*/
+#viewScores:active {
+  background-color: black;
+  box-shadow: 0 4px #666;
+  transform: translateY(4px)
+}
+
+/*style for GoBack button*/
+#goBack {
+    background-color: white;
+    margin-left: 22%;
+    color: black;
+    border-color: black;
+}
+
+/*style for when Go Back button is hovered over*/
+#goBack:hover {
+    border-color:black;
+    cursor: pointer;
+    border-radius: 100px;
+    color:white;
+    background-color: black;
+}
+
+/*style for when Go Back button is active*/
+#goBack:active {
+  background-color: black;
+  border-radius:100px;
+  box-shadow: 0 4px #666;
+  transform: translateY(4px);
+}
+
+/*style for when Clear HighScores*/
+#clearScores {
+    background-color: black;
+    margin-left: 5%;
+    padding: 10px 10px;
+    color: white;
+    border-color: black;
+}
+/*style for when Clear HighScores is hovered over*/
+#clearScores:hover {
+    border-color:black;
+    cursor: pointer;
+    border-radius: 100px;
+    color:black;
+    background-color: white;
+}
+
+/*style for when Clear HighScores button is active button*/
+#clearScores:active {
+  background-color: black;
+  box-shadow: 0 4px #666;
+  transform: translateY(4px)
+}
+
+/*style for current time div*/
+#currentTime {
+    text-align: left;
+    padding-left: 81%;
+    padding-top: 2%;
+    font-size: 18px
+}
+
+textarea {
+    width: 90%;
+    margin: 20px;
+}
+
+/*All styling for the 'All Done' inner Html Page is below*/
+
+/*style for the submit button on the All done page
+created in the quiz.js*/
+#Submit {
+    background-color: black;
+    margin-left: 22%;
+    color: white;
+    border-color: black;
+}
+
+/*style for when Start Quiz button is active*/
+#Submit:active {
+    background-color: black;
+    border-radius:100px;
+    box-shadow: 0 4px #666;
+    transform: translateY(4px);
+  }
+
+/*style for when Go Back button is hovered over*/
+#Submit:hover {
+    border-color:White;
+    cursor: pointer;
+    border-radius: 100px;
+    color:black;
+    background-color: white;
+}
+
+/*style for GoBack button*/
+#TryAgain {
+    background-color: white;
+    margin-left: 5%;
+    color: black;
+    border-color: black;
+}
+
+/*style for when Go Back button is hovered over*/
+#TryAgain:hover {
+    border-color:black;
+    cursor: pointer;
+    border-radius: 100px;
+    color:white;
+    background-color: black;
+}
+
+/*style for when Go Back button is active*/
+#TryAgain:active {
+  background-color: black;
+  border-radius:100px;
+  box-shadow: 0 4px #666;
+  transform: translateY(4px);
+}
+
+p2 {
+    font-size: 24px;
+    padding: 10px 10px;
+    background-color: whitesmoke;
+    color: black;
+}
+
+/*style for the label "Enter your name:" on the All done page
+created in the quiz.js*/
+label {
+    padding-left: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+/*style for the input box for the name on the All done page
+created in the quiz.js*/
+input {
+    padding-left: 3px;
+    margin-top: 3%;
+    margin-bottom: 20px;
+    width: 65%;
+    border: 2px solid black;
+    height: 30px;
+    background-color: whitesmoke;
+}
+
+/*style for unfiltered list items in questions page */
+li {
+    background-color: darkgray;
+    margin-top: 10px;
+    padding: 5px 15px;
+    /*width: 80%;*/
+    font-size: 18px;
+    color: black;
+    list-style-type: none;
+}
+
+/*style for question choices list items*/
+#choicesUl{
+
+    width: 80%;
+}
+
+/*style for high score list items*/
+#hs{
+    width: 100%;
+}
+
+#createDiv {
+    margin-top: 20px;
+    font-size: 18px;
+    color:white;
+    background-color: black;
+    padding-left: 10px;
+}
+
+        /* Start media queries */
+        /* A Media Query max-width: 786px */
+        @media screen and (max-width: 786px) {
+            /* Resized content to fit 786px  */
+                body {
+                    max-width: 786px;
+                }
+            /* Resized main-content to fit 786px  */
+            #wrapper {
+                position: absolute;
+                left: 20%;
+            }
+        
+            a {
+                margin-left: 20%;
+            }
+                #goBack {
+                    
+                    position: relative;
+                    left: 55%;
+                }
+        
+                #clear {
+                    
+                    position: relative;
+                    right: 5%;
+                    
+                }
+            }
+                
+            /* A Media Query max-width: 640px */
+            @media screen and (max-width: 640px) {
+             /* Resized content to fit 640px  */
+             body {
+                    min-width: 640px;
+                }
+            /* Resized main-content to fit 640px  */
+            #wrapper {
+                position: absolute;
+                left: 10%;
+            }
+              a {
+                  margin-left: 10%;
+                }
+            }

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Links to stylesheets and font family-->
+    <link href="https://fonts.googleapis.com/css?family=Rakkas" type="text/css" rel="stylesheet"/>
+    <link href="Assets/css/quizstyle.css"  type="text/css" rel="stylesheet"/>
+    
+    <!--Title of the Highscore Webpage-->
+    <title>HighScores</title>
+</head>
+
+<body>
+
+    <main class="container">
+
+        <!-- This is a wrapper -->
+        <div id="wrapper">
+
+            <!-- Div for timer -->
+            <div id="currentTime"></div>
+
+            <!-- Div for quiz content -->
+            <div id="questionsDiv">
+                <!--Header for HighScores Page-->
+                <h1>Highscores</h1>
+                <p id = "p3" style="text-align: left;">NAME<span style="float:right;">SCORE</span></p>
+                <!--Area where the HighScores will be displayed/cleared-->
+                <ul id="hs"></ul>
+
+                <br>
+
+                <!-- Buttons to go back to the start and clear all the high scores -->
+                <button id="goBack"><strong>Go Back</strong></button>
+                <button id="clearScores" value="reset"><strong>Clear HighScores</strong></button>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <!--javascript file where it generates the Highscore page of the site-->
+    <script src="Assets/js/HighScores.js"></script>
+    
+</body>
+
+</html>

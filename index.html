@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rakkas"/>
+    <link href="Assets/css/quizstyle.css" type="text/css" rel="stylesheet"/>
+
+    <!--Title of the Web Page-->
+    <title>Coding Quiz</title>
+
+</head>
+
+<body>
+    
+    <main class="container">
+
+                    <!-- Div for timer -->
+                    <div id="currentTime"></div>
+        
+    <!-- This is a wrapper -->
+        <div id="wrapper">
+                      
+            <!-- Div for quiz content -->
+            <div id="questionsDiv">
+                <h1>Coding Quiz Challenge</h1>
+                
+                <br>
+
+                <p>Try to answer these code-related questions 
+                    within the time limit. Keep in mind that incorrect
+                    answers will penalize your time by 10 seconds!
+                </p>
+
+                <ul id="choicesUl"></ul>
+
+                <br>
+
+                <!-- Buttons to Start the Quiz and View Highscores -->
+                <button id="startTimer"><strong>Start Quiz</strong></button>
+                <button id="viewScores"><strong>View HighScores</strong></button>
+            </div>
+        </div>  
+    </main>
+
+<!--Javascript code-->
+    <script src="Assets/js/questions.js"></script>
+    <script src="Assets/js/Render.js"></script>
+    <script src="Assets/js/quiz.js"></script>
+    
+</body>
+</html>
