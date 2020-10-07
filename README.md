@@ -8,8 +8,8 @@ This project has been deployed to my Personal GitHub Page. To get this project u
 
 ## Links
 
-* [GitHub Repository](https://github.com/JC72/JeffClegg_04_CodingQuiz)
-* [Deployed GitHub IO](https://jc72.github.io/JeffClegg_04_CodingQuiz/) 
+* [GitHub Repository](https://github.com/JC72/JeffClegg_04_CodeQuiz)
+* [Deployed GitHub IO](https://jc72.github.io/JeffClegg_04_CodeQuiz/) 
 
 ### Project Overview
 * HTML and CSS and Javascript documents create a quiz with nine questions (right now!!)
