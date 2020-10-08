@@ -5,8 +5,6 @@
 //Declaring Variables
 var viewScores = document.querySelector("#viewScores");
 var score = 0;
-var penalty = 5;
-
 
 //Event Listener to return to the start of the quiz
 viewScores.addEventListener("click", function() {

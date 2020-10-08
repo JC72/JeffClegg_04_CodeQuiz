@@ -37,8 +37,8 @@ if (scoresList !== null) {
 		// var inputText2 = <span style="float: right;">;
 		// var inputText3 = </span>;
 		//genLi.style = text-align: screenLeft;
-		genLi.textContent = scoresList[i].initials + " " + scoresList[i].score;
+		//genLi.textContent = scoresList[i].initials + " " + scoresList[i].score;
+		genLi.innerHTML = scoresList[i].initials+'<span style="float: right;">'+scoresList[i].score+'</span>';
 		highScores.appendChild(genLi);
-
 	}
 }
