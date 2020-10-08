@@ -15,19 +15,19 @@ This project has been deployed to my Personal GitHub Page. To get this project u
 * HTML and CSS and Javascript documents create a quiz with nine questions (right now!!)
 * This project emphasizes the use of using Javascript to make dynamic changes to an HMTL document
 
-<!-- ![](assets/ScreenShots/StartingPage.png) -->
-
 ### This assignment contains the following features: 
 * A Start Page with two buttons
     * This will allow the user to chose weather to view previous scores or if they would like to start the quiz.
 
-<!-- ![](assets/ScreenShots/LengthPrompt.png)-->
+![](assets/images/Screenshots/StartPage.png)
 
 * A Inner HTML page
     * This page is used for establishing the question to be answered and the 4 multiple choice answers
     * The answers have eventlisteners attached to allow the user to choose
 
-<!-- ![](assets/ScreenShots/LowerCase.png) -->
+<![](assets/images/Screenshots/FirstQuestion.png)
+
+![](assets/images/Screenshots/SecondQuestion.png)
 
 
 * A Final Inner HTML Page
@@ -35,17 +35,13 @@ This project has been deployed to my Personal GitHub Page. To get this project u
     * Shows users score and the number of questions correct
     * Allows user to choose to Submit the score or try quiz again
 
-<!-- ![](assets/ScreenShots/NumberPrompt.png) -->
-
-<!-- ![](assets/ScreenShots/SpecChars.png)
-
-![](assets/ScreenShots/UpperCase.png) -->
+![](assets/images/Screenshots/EndPage.png)
 
 * A HighScore Page
     * This area will display the users scores
     * The two buttons will also allow the users to start the quiz again or clear the scores
 
-<!-- ![](assets/ScreenShots/FinalProduct.png) -->
+![](assets/images/Screenshots/HighScore.png)
 
 
 ### Project Requirements: 
