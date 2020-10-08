@@ -27,22 +27,20 @@ This project has been deployed to my Personal GitHub Page. To get this project u
 
     ![First Page](https://github.com/JC72/JeffClegg_04_CodeQuiz/blob/main/Assets/images/ScreenShots/FirstQuestion.png)
 
-    ![](Assets/images/Screenshots/SecondQuestion.png)
-
+    ![Second Page](https://github.com/JC72/JeffClegg_04_CodeQuiz/blob/main/Assets/images/ScreenShots/SecondQuestion.png)
 
 * A Final Inner HTML Page
     * This page is where the user is allowed to enter name or intials
     * Shows users score and the number of questions correct
     * Allows user to choose to Submit the score or try quiz again
 
-    ![](Assets/images/Screenshots/EndPage.png)
+    ![Final Page](https://github.com/JC72/JeffClegg_04_CodeQuiz/blob/main/Assets/images/ScreenShots/EndPage.png)
 
 * A HighScore Page
     * This area will display the users scores
     * The two buttons will also allow the users to start the quiz again or clear the scores
 
-    ![](Assets/images/Screenshots/HighScore.png)
-
+    ![High Scores](https://github.com/JC72/JeffClegg_04_CodeQuiz/blob/main/Assets/images/ScreenShots/HighScore.png)
 
 ### Project Requirements: 
 
