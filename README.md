@@ -21,15 +21,13 @@ This project has been deployed to my Personal GitHub Page. To get this project u
 
     ![Start Page](https://github.com/JC72/JeffClegg_04_CodeQuiz/blob/main/Assets/images/ScreenShots/StartPage.png)
 
-![](Assets/images/Screenshots/StartPage.png)
-
 * A Inner HTML page
     * This page is used for establishing the question to be answered and the 4 multiple choice answers
     * The answers have eventlisteners attached to allow the user to choose
 
-![](assets/images/Screenshots/FirstQuestion.png)
+    ![First Page](https://github.com/JC72/JeffClegg_04_CodeQuiz/blob/main/Assets/images/ScreenShots/FirstQuestion.png)
 
-![](Assets/images/Screenshots/SecondQuestion.png)
+    ![](Assets/images/Screenshots/SecondQuestion.png)
 
 
 * A Final Inner HTML Page
@@ -37,13 +35,13 @@ This project has been deployed to my Personal GitHub Page. To get this project u
     * Shows users score and the number of questions correct
     * Allows user to choose to Submit the score or try quiz again
 
-![](Assets/images/Screenshots/EndPage.png)
+    ![](Assets/images/Screenshots/EndPage.png)
 
 * A HighScore Page
     * This area will display the users scores
     * The two buttons will also allow the users to start the quiz again or clear the scores
 
-![](Assets/images/Screenshots/HighScore.png)
+    ![](Assets/images/Screenshots/HighScore.png)
 
 
 ### Project Requirements: 
