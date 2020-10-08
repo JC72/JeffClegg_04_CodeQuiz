@@ -30,8 +30,9 @@ function timesUp() {
         var percent = (score/questions.length)*100;
         var timeRemaining = Math.round(percent, 1);
         var createP2 = document.createElement("p");
+        var totalPt = timeRemaining + duration
         clearInterval(holdInterval);
-        createP2.textContent = "Your final score is:" + " "+ timeRemaining;
+        createP2.textContent = "Your final score is:" + " "+ totalPt;
 
         questionsDiv.appendChild(createP2);
     }
