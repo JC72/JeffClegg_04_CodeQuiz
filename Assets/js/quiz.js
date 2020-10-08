@@ -5,10 +5,8 @@
 //Declaring Variables
 var viewScores = document.querySelector("#viewScores");
 var score = 0;
-var percent = (score/questions.length)*100;
-var timeRemaining = Math.round(percent, 1);
-var createP2 = document.createElement("p");
-var totalPt = timeRemaining + duration
+
+//var totalPt = timeRemaining + duration
 
 //Event Listener to return to the start of the quiz
 viewScores.addEventListener("click", function() {
@@ -18,6 +16,10 @@ viewScores.addEventListener("click", function() {
 
 // timeUp will append last page to allow for the user to submit score and initials
 function timesUp() {
+    var percent = (score/questions.length)*100;
+    var timeRemaining = Math.round(percent, 1);
+    var createP2 = document.createElement("p");
+    
     questionsDiv.innerHTML = "";
     currentTime.innerHTML = "";
     clearInterval(duration);
@@ -35,7 +37,7 @@ function timesUp() {
         // var percent = (score/questions.length)*100;
         // var timeRemaining = Math.round(percent, 1);
         // var createP2 = document.createElement("p");
-        // var totalPt = timeRemaining + duration
+        var totalPt = timeRemaining + duration
         
         clearInterval(holdInterval);
         createP2.textContent = "Your final score is:" + " "+ totalPt;
