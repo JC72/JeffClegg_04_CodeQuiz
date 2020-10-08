@@ -19,7 +19,7 @@ This project has been deployed to my Personal GitHub Page. To get this project u
 * A Start Page with two buttons
     * This will allow the user to chose weather to view previous scores or if they would like to start the quiz.
 
-    https://github.com/JC72/JeffClegg_04_CodeQuiz/blob/main/Assets/images/ScreenShots/StartPage.png
+    ![Start Page](https://github.com/JC72/JeffClegg_04_CodeQuiz/blob/main/Assets/images/ScreenShots/StartPage.png)
 
 ![](Assets/images/Screenshots/StartPage.png)
 
