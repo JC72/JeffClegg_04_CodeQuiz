@@ -5,6 +5,10 @@
 //Declaring Variables
 var viewScores = document.querySelector("#viewScores");
 var score = 0;
+var percent = (score/questions.length)*100;
+var timeRemaining = Math.round(percent, 1);
+var createP2 = document.createElement("p");
+var totalPt = timeRemaining + duration
 
 //Event Listener to return to the start of the quiz
 viewScores.addEventListener("click", function() {
@@ -27,18 +31,28 @@ function timesUp() {
 
 // this generates the final score and creates and append score to a paragraph element
     if (duration >= 0) {
-        var percent = (score/questions.length)*100;
-        var timeRemaining = Math.round(percent, 1);
-        var createP2 = document.createElement("p");
-        var totalPt = timeRemaining + duration
+        if (timeRemaining > 0) {
+        // var percent = (score/questions.length)*100;
+        // var timeRemaining = Math.round(percent, 1);
+        // var createP2 = document.createElement("p");
+        // var totalPt = timeRemaining + duration
+        
         clearInterval(holdInterval);
         createP2.textContent = "Your final score is:" + " "+ totalPt;
-
         questionsDiv.appendChild(createP2);
+        }
     }
+        else {
+            clearInterval(holdInterval);
+            console.log(timeRemaining);
+        createP2.textContent = "Your final score is:" + " "+ timeRemaining + ".  Please Try Again!!";
+        questionsDiv.appendChild(createP2);
+        }
+        
+    
 
 
-//Folloing set of code creates a Label, a input box, and 2 buttons
+//Following set of code creates a Label, a input box, and 2 buttons
 
 
     // Label for name input area
